@@ -1,5 +1,5 @@
 const config = {
-    dbConStr: 'mongodb://localhosti:27017/eCommerce'
+    dbConStr: process.env.dbConStr
 };
 
 module.exports = config;
