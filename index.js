@@ -6,7 +6,7 @@ const deafultRouter = require('./routes/defaultRouter');
 const userRouter = require('./routes/userRouter');
 
 const app = express();
-const port = 3000;
+const port = proces.env.PORT||3000;
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

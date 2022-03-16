@@ -1,5 +1,5 @@
 const config = {
-    dbConStr: 'mongodb://localhost:27017/eCommerce'
+    dbConStr: 'mongodb://localhosti:27017/eCommerce'
 };
 
 module.exports = config;
